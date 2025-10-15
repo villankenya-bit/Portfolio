@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio website for Julius Mwangi, showcasing skills, projects, and contacts with digital animations and graphics.">
+    <title>Julius Mwangi - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon"> <!-- Add your own favicon -->
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <div class="logo">Julius Mwangi</div>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section with Animation -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Julius Mwangi</h1>
+            <p>Web Developer & Digital Innovator</p>
+            <div class="animated-graphic">
+                <!-- Simple SVG graphic with animation -->
+                <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+                    <circle id="rotating-circle" cx="50" cy="50" r="40" stroke="blue" stroke-width="3" fill="transparent" />
+                </svg>
+            </div>
+            <a href="#contact" class="btn">Get in Touch</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Julius Mwangi, a passionate web developer with a focus on creating interactive digital experiences. I specialize in front-end development, animations, and responsive designs. With experience in building user-friendly websites, I'm always excited about new challenges.</p>
+    </section>
+
+    <!-- Skills Section with Graphics -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill-item">HTML5 <span class="skill-icon"></span></div>
+            <div class="skill-item">CSS3 <span class="skill-icon"></span></div>
+            <div class="skill-item">JavaScript <span class="skill-icon"></span></div>
+            <div class="skill-item">Responsive Design <span class="skill-icon"></span></div>
+            <div class="skill-item">Animations <span class="skill-icon"></span></div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project-item">
+                <h3>Project 1: Personal Blog</h3>
+                <p>A responsive blog site built with HTML, CSS, and JS. Features include animated layouts and user authentication.</p>
+                <a href="https://github.com/villankenya-bit" target="_blank">View on GitHub</a>
+            </div>
+            <div class="project-item">
+                <h3>Project 2: E-Commerce Site</h3>
+                <p>An online store with dynamic product listings and cart functionality. Used animations for a smooth user experience.</p>
+                <a href="https://github.com/villankenya-bit" target="_blank">View on GitHub</a>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out via the following channels:</p>
+        <div class="contact-items">
+            <div class="contact-item">
+                <span class="contact-icon">Email:</span>
+                <a href="mailto:villankenya@gmail.com">villankenya@gmail.com</a>
+            </div>
+            <div class="contact-item">
+                <span class="contact-icon">Whatsapp:</span>
+                <a href="https://wa.me/+254724176154" target="_blank">WhatsApp: +254724176154</a>
+            </div>
+            <div class="contact-item">
+                <span class="contact-icon">Linkedin:</span>
+                <a href="https://www.linkedin.com/in/villan01" target="_blank">LinkedIn: villan01</a>
+            </div>
+            <div class="contact-item">
+                <span class="contact-icon">GitHub:</span>
+                <a href="https://github.com/villankenya-bit" target="_blank">GitHub: villankenya-bit</a>
+            </div>
+        </div>
+        <!-- Simple Contact Form -->
+        <form action="https://formspree.io/your-email@example.com" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <p>Note: Replace 'your-email@example.com' in the form action with a real service like Formspree.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Julius Mwangi. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
