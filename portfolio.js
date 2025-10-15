@@ -1,4 +1,4 @@
-// Simple script for scroll animations
+to// Simple script for scroll animations
 document.addEventListener('scroll', function() {
     const sections = document.querySelectorAll('section');
     sections.forEach(section => {
